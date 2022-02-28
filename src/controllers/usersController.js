@@ -4,6 +4,10 @@ const usersFilePath = path.join(__dirname, '../database/users.JSON');
 const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
 
 module.exports = {
+    users:(req,res) =>{
+        res.render("users")
+
+    },
    register:(req,res)=>{
       
     res.render("register")

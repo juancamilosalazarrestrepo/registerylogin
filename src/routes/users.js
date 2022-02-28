@@ -18,9 +18,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+router.get('/', usersController.users);
 
 router.get('/register',usersController.register);
 
