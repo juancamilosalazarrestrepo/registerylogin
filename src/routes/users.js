@@ -3,6 +3,7 @@ const usersController = require('../controllers/usersController');
 var router = express.Router();
 const multer = require('multer');
 const path = require('path');
+let logDBMiddleware = require('../../middlewares/logDBMiddleware');
 
 const storage = multer.diskStorage({
   destination:(req,file,cb) => {
@@ -20,9 +21,9 @@ const upload = multer({ storage });
 /* GET users listing. */
 router.get('/', usersController.users);
 
-router.get('/register',usersController.register);
+router.get('/register' ,usersController.register);
 
-router.post('/register',upload.single('imagenUsuario'), usersController.store);
+router.post('/register',upload.single('imagenUsuario'),logDBMiddleware, usersController.store);
 
 
 

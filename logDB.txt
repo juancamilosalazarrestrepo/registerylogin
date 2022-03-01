@@ -1,0 +1,3 @@
+
+
+se creo un registro al ingresar en/register
