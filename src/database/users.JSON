@@ -1,10 +1,12 @@
 [
  {
-  "id": 1,
-  "name": "Juan"
+  "id": 3,
+  "name": "zapatilla nike",
+  "image": "user-1646108588737.png"
  },
  {
-  "id": 2,
-  "name": "Biviana Maria"
+  "id": 4,
+  "name": "zapatilla nike 2",
+  "image": "user-1646109853386.png"
  }
 ]
