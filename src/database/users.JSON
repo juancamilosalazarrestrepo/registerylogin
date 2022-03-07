@@ -1,12 +1,37 @@
 [
  {
-  "id": 3,
-  "name": "zapatilla nike",
-  "image": "user-1646108588737.png"
+  "id": 6,
+  "name": "camilo",
+  "age": "12",
+  "email": "juancamilosalazarrestrepo@gmail.com",
+  "country": "Colombia",
+  "image": "user-1646526570563.png"
  },
  {
-  "id": 4,
-  "name": "zapatilla nike 2",
-  "image": "user-1646109853386.png"
+  "id": 7,
+  "name": "Juan Camilo Salazar Restrepo",
+  "age": "12",
+  "email": "Info@mundocomercial.co",
+  "password": "1234567",
+  "country": "Venezuela",
+  "image": "user-1646623082726.png"
+ },
+ {
+  "id": 8,
+  "name": "Juan Camilo Salazar Restrepo ",
+  "age": "12",
+  "email": "perfumeria@shopby.app",
+  "password": "1234567",
+  "country": "Uruguay",
+  "image": "user-1646623142174.png"
+ },
+ {
+  "id": 9,
+  "name": "Juan Camilo Salazar Restrepo",
+  "age": "12",
+  "email": "bivianarestrepo92@gmail.com",
+  "password": "1234567",
+  "country": "Chile",
+  "image": "user-1646623212700.png"
  }
 ]
