@@ -3,6 +3,7 @@ const usersController = require('../controllers/usersController');
 var router = express.Router();
 const multer = require('multer');
 const path = require('path');
+let logDBMiddleware = require('../../middlewares/logDBMiddleware');
 
 // llamando a express validator
 
@@ -52,9 +53,13 @@ const upload = multer({ storage });
 /* GET users listing. */
 router.get('/', usersController.users);
 
-router.get('/register',usersController.register);
+router.get('/register' ,usersController.register);
 
+<<<<<<< HEAD
 router.post('/register',upload.single('imagenUsuario'),validacioneslogin, usersController.store);
+=======
+router.post('/register',upload.single('imagenUsuario'),logDBMiddleware, usersController.store);
+>>>>>>> 72b9e2a16640b3726179faa1e1e3de67b8b65374
 
 
 
