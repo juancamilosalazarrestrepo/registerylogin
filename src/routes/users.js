@@ -55,11 +55,7 @@ router.get('/', usersController.users);
 
 router.get('/register' ,usersController.register);
 
-<<<<<<< HEAD
 router.post('/register',upload.single('imagenUsuario'),validacioneslogin, usersController.store);
-=======
-router.post('/register',upload.single('imagenUsuario'),logDBMiddleware, usersController.store);
->>>>>>> 72b9e2a16640b3726179faa1e1e3de67b8b65374
 
 
 
